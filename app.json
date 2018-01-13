@@ -1,7 +1,9 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/analysis/analysis",
+    "pages/role/role"
   ],
   "window":{
     "backgroundTextStyle":"light",

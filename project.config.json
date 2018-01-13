@@ -20,9 +20,26 @@
 			"current": -1,
 			"list": []
 		},
-		"miniprogram": {
+		"game": {
 			"current": -1,
 			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "analysis",
+					"pathName": "pages/analysis/analysis",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "role",
+					"pathName": "pages/role/role",
+					"query": ""
+				}
+			]
 		}
 	}
 }
