@@ -1,0 +1,11 @@
+<view class='role' style='background-image:url(../../images/Holmes.png)'>
+  <view class='title'>角色故事</view>
+  <view>
+    <!-- 故事，线索，全局信息展示 -->
+  </view>
+  <view class='button'>
+    <button class='buttonsize' bindtap='vote'>投票</button>
+    <button class='buttonsize' bindtap='getFirstCule'>一轮线索</button>
+    <button class='buttonsize' bindtap='getSecondCule'>二轮线索</button>
+  </view>
+</view>

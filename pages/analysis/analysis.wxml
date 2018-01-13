@@ -1,0 +1,12 @@
+<view class="analysis" style='background-image:url(../../images/Holmes.png)'>
+  <view style='align-content:top'>
+    <text class="title">{{title}}</text>
+  </view>
+  <view>
+    <!-- 故事解析展示 -->
+  </view>
+  <view class="button">
+      <button class='buttonsize' bindtap='exitRoom'>退出房间</button>
+      <button class='buttonsize' bindtap='selectStory'>再来一局</button>
+  </view>
+</view>

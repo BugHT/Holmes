@@ -1,0 +1,21 @@
+.role{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: contain;
+}
+.button{
+  margin: 1px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.buttonsize{
+  height: 50px;
+  width: 110px;
+  font-size: 20px;
+}
