@@ -36,6 +36,19 @@ App({
   globalData: {
     userInfo: null,
     userName: null,
+    //剧本编号
     storyNo: '0',
+    //剧本名称
+    storyName: null,
+    //角色名称
+    role: null,
+    //第一轮线索
+    firstCule:null,
+    //第二轮线索
+    secondCule:null,
+    //剧本结局
+    storyResult:null,
+    //剧情
+    story:null
   }
 })

@@ -3,7 +3,7 @@
     <text class="title">{{title}}</text>
   </view>
   <view>
-    <!-- 故事解析展示 -->
+    <text class="contentView">{{storyResult}}</text>
   </view>
   <view class="button">
       <button class='buttonsize' bindtap='exitRoom'>退出房间</button>
