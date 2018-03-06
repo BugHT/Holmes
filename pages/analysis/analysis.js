@@ -7,17 +7,20 @@ Page({
   },
   //根据故事编号storyNo获取故事解析
   onShow: function () {
-    const requestTask =wx.request({
-      url: 'https://localhost/test.php',
-      data: {
-        storyNo: app.globalData.storyNo
-      },
-      success: function (res) {
-        //服务端返回的数据
-        this.setData({
-          storyResult: res.data
-        })
-      }
+    // const requestTask =wx.request({
+    //   url: 'https://localhost/test.php',
+    //   data: {
+    //     storyNo: app.globalData.storyNo
+    //   },
+    //   success: function (res) {
+    //     //服务端返回的数据
+    //     this.setData({
+    //       storyResult: res.data
+    //     })
+    //   }
+    // })
+    this.setData({
+      storyResult: "hahahahahahahahhaha  hahahahahahahahahhah"
     })
   },
   //退出房间

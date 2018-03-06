@@ -4,19 +4,30 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;  
+  justify-content: space-between;
   background-size: contain;
 }
 
 .button {
   margin: 5px;
-  display: flex; 
+  display: flex;
   flex-direction: row;
   /* justify-content: space-around; */
 }
 
-.buttonsize{
+.buttonsize {
   height: 50px;
   width: 110px;
   font-size: 20px;
+}
+
+.contentView {
+  display: flex;
+  justify-content: space-around;
+  /* background: #666; */
+  margin: 10px;
+  overflow:hidden;/*防止文字超出边框*/
+  /* font: bold 55px/100% "微软雅黑", "Lucida Grande", "Lucida Sans", Helvetica, Arial, Sans;  */
+  /* color: #fff; */
+  text-transform: uppercase;
 }
