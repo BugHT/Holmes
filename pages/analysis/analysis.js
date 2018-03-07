@@ -20,7 +20,7 @@ Page({
     //   }
     // })
     this.setData({
-      storyResult: "hahahahahahahahhaha  hahahahahahahahahhah"
+      storyResult: "我也不知道这个该怎么设计，前端太难了，还得设计ui"
     })
   },
   //退出房间
